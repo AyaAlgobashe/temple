@@ -1,0 +1,117 @@
+body{
+    background-image: url(cell-phones.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: 50%;
+        background-attachment: fixed;
+        font-family: Lucida Console;
+       
+    }
+   
+    .my{
+        width: 300px;
+        height: 70px;
+    background-color: rgba(0,0,0,.5);    
+    color: rgb(238,235,228);
+    padding: 15px;
+    margin: 10px 10px 10px 500px;
+    font-size: 40px;
+    border-bottom: 5px solid rgba(214, 206, 129, 0.2);
+    }
+
+    *{
+        box-sizing: border-box;
+    }
+    .d{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    main {
+        flex: 70%;
+        padding: 20px;
+    }
+    aside{
+        flex:30% ;
+        padding: 20px;
+    }
+
+    .h{
+        background-color: rgba(0,0,0,.5);
+        color: rgb(238, 235, 228);
+        width: 1200px;
+        height: 50px;
+            padding: 10px 10px 10px 70px;
+            font-size: 30px;
+            font-family: Lucida Console;
+            border-bottom: 5px solid rgba(214, 206, 129, 0.2) ;
+    } 
+    .ra{
+        border: 5px solid  rgba(214, 206, 129, 0.2);
+        width: 1000px;
+        height: 500px;
+        
+
+      
+    }
+    .a{
+        border: 5px solid  rgba(214, 206, 129, 0.2);
+        width: 1000px;
+        height: 500px;
+        margin-top:-10px ;
+    }
+    .t{
+        color: rgb(238, 235, 228);
+        font-size: 30px;
+        font-family: Lucida Console; 
+       
+    }
+    .w {
+        display: block;
+        width: 600px;
+        height: 200px;
+      }
+      .y {
+        display: block;
+        width: 300px;
+        height: 200px;
+      }
+      .m {
+        color: rgb(238, 235, 228);
+
+        border: 5px solid  rgba(214, 206, 129, 0.2);
+        width: 400px;
+        height: 500px;
+        margin: -500px 10px 10px 1050px;
+  
+    }
+    .pa{
+        font-size: 10px;
+        font-family: Lucida Console;    
+    }
+    .o{
+        color: rgb(238, 235, 228);
+        border: 5px solid  rgba(214, 206, 129, 0.2);
+        width: 400px;
+        height: 800px;
+        padding: 20px;
+        margin: -500px 10px 10px 1050px;
+
+    }
+    .f{
+        color: rgb(238, 235, 228);
+
+        border: 5px solid  rgba(214, 206, 129, 0.2);
+        width: 400px;
+        height: 300px;
+        margin: 10px 10px 10px 1050px;
+
+
+    }
+    footer {
+        text-align: center;
+        background-color: rgb(192, 180, 180);
+        padding: 20px;
+        font-family: Lucida Console; 
+        color:rgba(39, 38, 28) ;   
+
+    }
